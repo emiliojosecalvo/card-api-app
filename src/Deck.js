@@ -44,8 +44,8 @@ class Deck extends Component {
         })
         return (
             <div className='Deck'>
-                <h1>Card Dealer</h1>
-                <button onClick={this.generateCard}> Generate Card</button>
+                <h1 className='Deck-title'>Card Dealer</h1>
+                <a onClick={this.generateCard}> Generate Card</a>
                 <div className='Deck-cards'>{cards}</div>
             </div>
         )
